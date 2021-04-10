@@ -2,7 +2,7 @@ mod usbtmc;
 
 use std::path::Path;
 
-fn main() -> usbtmc::Result<u8> {
+fn main() -> usbtmc::Result<()> {
     let args: Vec<String> = std::env::args().collect();
 
     if args.len() < 3 {
