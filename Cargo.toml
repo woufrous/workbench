@@ -1,0 +1,8 @@
+[package]
+name = "workbench"
+version = "0.1.0"
+authors = ["Hans Grob <H.Grob@mailbox.org>"]
+edition = "2018"
+
+[dependencies]
+nix = "0.20.0"
